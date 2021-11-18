@@ -286,7 +286,7 @@ a:active {
 		width: 500px;
 	}
 	.titre_centre {
-		width: 490px;
+		width: 450px;
 	}
 	#grille {
 		width: 380px;
@@ -294,10 +294,14 @@ a:active {
 		float: none;
 	}
   }
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
 	.colonne {
-		width: 750px;
+		width: 500px;
 	}
+	.div_conteneur_parent {
+		width: 870px;
+	}
+
   }
  
   @keyframes flipInY {
